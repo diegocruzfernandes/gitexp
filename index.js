@@ -1,2 +1,2 @@
-const msg = 'Olá mundo!';
-console.log(msg);
+const msg = require('./show')
+console.log(msg)
