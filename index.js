@@ -1,2 +1,6 @@
 const msg = require('./show')
-console.log(msg)
+const mat = require('./count')
+
+const result = mat.sum(1,1);
+console.log(msg, result);
+
